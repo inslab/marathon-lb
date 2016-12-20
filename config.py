@@ -69,7 +69,7 @@ defaults
   retries                   3
   backlog               10000
   maxconn               10000
-  timeout connect          3s
+  timeout connect         10s
   timeout client          30s
   timeout server          30s
   timeout tunnel        3600s
